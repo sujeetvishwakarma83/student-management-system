@@ -121,7 +121,7 @@ student.sql
 
 7. Run the project in the browser using:
 
-http://localhost/student-management-system
+[http://localhost/student-management-system](https://student-management.infinityfreeapp.com/)
 
 --------------------------------------------------
 
