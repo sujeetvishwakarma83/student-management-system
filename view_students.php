@@ -1,15 +1,10 @@
 <?php
-// Database connection
-$conn = new mysqli("localhost", "root", "", "student_management");
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include "config.php";
 
 // Fetch data
 $sql = "SELECT * FROM students";
-$result = $conn->query($sql);
+$result = mysqli_query($conn, $sql);
+?>lt = mysqli_query($conn, $sql);
 ?>
 <!DOCTYPE html>
 <html>
@@ -76,3 +71,4 @@ $result = $conn->query($sql);
 
 </body>
 </html>
+
