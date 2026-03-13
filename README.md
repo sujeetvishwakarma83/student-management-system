@@ -100,7 +100,7 @@ edit_student.php
 delete_student.php  
 
 database/
-admin
+admin.sql
 student.sql
 
 --------------------------------------------------
